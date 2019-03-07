@@ -1,0 +1,16 @@
+Index: eurekaclient/src/main/java/com/demo/bean/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- eurekaclient/src/main/java/com/demo/bean/User.java	(revision a6fa71340f9818098c3c4082c134c3422474d981)
++++ eurekaclient/src/main/java/com/demo/bean/User.java	(date 1551941576570)
+@@ -8,7 +8,7 @@
+ public class User implements Serializable{
+ 
+ 
+-    private Integer id;
++    private Integer id;//id
+     private String types;
+     private Integer nums;
+ 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-server" />
+        <module name="eurekaclient" />
+        <module name="eurekaclient2" />
+        <module name="service-feign" />
+        <module name="service-gateway" />
+        <module name="service-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-server" target="1.8" />
+      <module name="eurekaclient" target="1.8" />
+      <module name="eurekaclient2" target="1.8" />
+      <module name="sc-f-gateway-first-sight" target="1.8" />
+      <module name="scfchapter1" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
